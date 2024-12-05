@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  postgres:
+    image: postgres:14 # Or your preferred PostgreSQL version
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 493138
+      POSTGRES_DB: tg_bot
+    ports:
+      - "5432:5432"
